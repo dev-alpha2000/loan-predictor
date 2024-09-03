@@ -36,14 +36,20 @@ Loan_Amount_Term: Term of the loan (in months)
 Credit_History: Credit history meets guidelines
 Property_Area: Urban/Semi-Urban/Rural
 Loan_Status: Loan approved (Y/N)
+
 ## installation
 To run this project locally, follow these steps:
 
 **1.** Clone the repository:git clone https://github.com/yourusername/loan-predictor.git
 cd loan-predictor
+
 **2** Create a virtual environment and activate it:python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
 **3** Install the required dependencies:pip install -r requirements.txt
+
+**Model**
+The machine learning model used in this project is a [ Random Forest]. The model is trained on the provided dataset and fine-tuned using cross-validation to improve its accuracy. The performance metrics, such as accuracy, precision, recall, and F1 score, are used to evaluate the model.
 
 
 
