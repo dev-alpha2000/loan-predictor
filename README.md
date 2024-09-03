@@ -20,4 +20,31 @@ loan-predictor/
 ├── README.md               # Project README file
 ├── requirements.txt        # Python dependencies
 
+## Dataset
+The dataset used for this project contains various features related to loan applications, including:
+
+Loan_ID: Unique Loan ID
+Gender: Male/Female
+Married: Applicant married (Y/N)
+Dependents: Number of dependents
+Education: Applicant Education (Graduate/Undergraduate)
+Self_Employed: Self-employed (Y/N)
+ApplicantIncome: Applicant's income
+CoapplicantIncome: Coapplicant's income
+LoanAmount: Loan amount (in thousands)
+Loan_Amount_Term: Term of the loan (in months)
+Credit_History: Credit history meets guidelines
+Property_Area: Urban/Semi-Urban/Rural
+Loan_Status: Loan approved (Y/N)
+## installation
+To run this project locally, follow these steps:
+
+**1.** Clone the repository:git clone https://github.com/yourusername/loan-predictor.git
+cd loan-predictor
+**2** Create a virtual environment and activate it:python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+**3** Install the required dependencies:pip install -r requirements.txt
+
+
+
 
