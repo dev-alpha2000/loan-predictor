@@ -48,10 +48,10 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 **3** Install the required dependencies:pip install -r requirements.txt
 
-##Model##
+## Model
 The machine learning model used in this project is a [ Random Forest]. The model is trained on the provided dataset and fine-tuned using cross-validation to improve its accuracy. The performance metrics, such as accuracy, precision, recall, and F1 score, are used to evaluate the model.
 
-##Evaluation##
+## Evaluation
 The model's performance is evaluated using the following metrics:
 
 **Accuracy**: The ratio of correctly predicted observations to the total observations.
